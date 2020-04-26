@@ -5,6 +5,7 @@ def sgn(x):
 		return -1 
 
 
+
 def bisection(func,interval,accuracy = 10**-6)
 	left  = interval[0]
 	right = interval[1]
@@ -31,3 +32,6 @@ def bisection(func,interval,accuracy = 10**-6)
 	return midle
 
 
+def tessst():
+	pass
+xcbxcbxcbxc
