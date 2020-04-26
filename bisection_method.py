@@ -30,8 +30,3 @@ def bisection(func,interval,accuracy = 10**-6)
 			midle = 1/2 * (left + right)
 
 	return midle
-
-
-def tessst():
-	pass
-xcbxcbxcbxc
