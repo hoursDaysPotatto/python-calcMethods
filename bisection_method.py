@@ -3,9 +3,7 @@ def sgn(x):
 		return 1
 	else:
 		return -1 
-
-
-
+	
 def bisection(func,interval,accuracy = 10**-6)
 	left  = interval[0]
 	right = interval[1]
@@ -19,8 +17,6 @@ def bisection(func,interval,accuracy = 10**-6)
 	flag = 1
 	if sgn(func(left)) > 0:
 		flag = -1
-	
-
 	while abs(func(midle)) > accur:
 		if func(midle)*flag > 0:
 			right = midle 
